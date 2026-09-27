@@ -1,0 +1,25 @@
+# Виртуальное окружение Python
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Данные (сырые CSV не пушим — они большие)
+data/raw/*.csv
+
+# Сохранённые модели
+models/*.pkl
+
+# Системное
+.DS_Store
+Thumbs.db
